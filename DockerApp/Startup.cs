@@ -37,7 +37,7 @@ namespace DockerApp
                 SqlDataReader myReader = cmd.ExecuteReader();
                 if (myReader.Read())
                 {
-                    await context.Response.WriteAsync(myReader["Name"].ToString());
+                    await context.Response.WriteAsync(myReader["Name"].ToString()+"Vishnu");
                     //sqlUname = myReader["USERNAME"].ToString();
                     ////MessageBox.Show(uname);
                     //textBox1.Text = sqlUname;
